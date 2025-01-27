@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeSmart</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container text-center mt-5">
+      <h1>🐝 BeeSmart</h1>
+      <p>Bienvenido a tu colmena digital.</p>
+
+      <div id="user-info" class="mt-4">
+        <p>
+          <strong>Gotas de Miel:</strong> <span id="gotas">Cargando...</span>
+        </p>
+        <p>
+          <strong>ID de Colmena:</strong> <span id="colonias">Cargando...</span>
+        </p>
+        <p><strong>Tus Abejas:</strong> <span id="abejas">Cargando...</span></p>
+      </div>
+
+      <div class="buttons mt-4">
+        <button id="collect-nectar" class="btn btn-primary btn-lg">
+          Recolectar Néctar
+        </button>
+        <button id="buy-bee" class="btn btn-warning btn-lg">
+          Comprar Abeja
+        </button>
+        <button id="buy-colony" class="btn btn-success btn-lg">
+          Comprar Colmena
+        </button>
+        <button id="withdraw" class="btn btn-danger btn-lg">Retirar TON</button>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
